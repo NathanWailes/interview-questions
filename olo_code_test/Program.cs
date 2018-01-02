@@ -69,10 +69,7 @@ namespace olo_code_test
                 string toppingsString = String.Join(", ", individualToppings);
 
                 // Print to the console
-                Console.WriteLine("{0,3}{1,40}{2,6}",
-                                    i,
-                                    toppingsString,
-                                    item.Value);
+                Console.WriteLine("{0,3}{1,40}{2,6}", i, toppingsString, item.Value);
 
                 i++;
                 if (i > 20) {
