@@ -52,9 +52,6 @@ class Tetris:
             self._draw_board()
             valid_moves = self.current_piece.get_valid_moves()
 
-            if not valid_moves:
-                raise GameOverException
-
             presented_options = ""
             if MOVE_LEFT in valid_moves:
                 presented_options += "a - move piece left\n"
@@ -137,7 +134,7 @@ class Board:
         x_offset = self._get_random_x_offset_for_new_piece(piece)
         piece.current_position = Point(x_offset, 0)
 
-        for y_index, line in enumerate(piece.piece_type.default_orientation):
+        for y_index, line in enumerate(piece.piece_type.default_appearance):
             for x_index, character in enumerate(line):
                 if character == "*" and self.playable_area[y_index][x_offset + x_index] != " ":
                     raise GameOverException
@@ -149,7 +146,7 @@ class Board:
         return piece
 
     def _get_random_x_offset_for_new_piece(self, piece):
-        width_of_the_piece = len(piece.piece_type.default_orientation[0])  # This grabs the first row of the 2D array
+        width_of_the_piece = len(piece.piece_type.default_appearance[0])  # This grabs the first row of the 2D array
         max_possible_x_offset = Board.playable_area_width - width_of_the_piece
         x_offset = random.randint(0, max_possible_x_offset)
         return x_offset
@@ -172,19 +169,19 @@ class Board:
 
 
 class Piece:
-    PieceType = namedtuple("PieceType", ['name', 'default_orientation'])
-    I = PieceType(name="I", default_orientation=[["*", "*", "*", "*"]])
-    L = PieceType(name="L", default_orientation=[["*", " "],
-                                                 ["*", " "],
-                                                 ["*", "*"]])
-    J = PieceType(name="J", default_orientation=[[" ", "*"],
-                                                 [" ", "*"],
-                                                 ["*", "*"]])
-    Z = PieceType(name="Z", default_orientation=[[" ", "*"],
-                                                 ["*", "*"],
-                                                 ["*", " "]])
-    O = PieceType(name="square", default_orientation=[["*", "*"],
-                                                      ["*", "*"]])
+    PieceType = namedtuple("PieceType", ['name', 'default_appearance'])
+    I = PieceType(name="I", default_appearance=[["*", "*", "*", "*"]])
+    L = PieceType(name="L", default_appearance=[["*", " "],
+                                                ["*", " "],
+                                                ["*", "*"]])
+    J = PieceType(name="J", default_appearance=[[" ", "*"],
+                                                [" ", "*"],
+                                                ["*", "*"]])
+    Z = PieceType(name="Z", default_appearance=[[" ", "*"],
+                                                ["*", "*"],
+                                                ["*", " "]])
+    O = PieceType(name="square", default_appearance=[["*", "*"],
+                                                     ["*", "*"]])
     piece_types = [I, L, J, Z, O]
 
     DEFAULT_ORIENTATION = 0
@@ -239,10 +236,12 @@ class Piece:
         return self.get_position_after_move_given_new_orientation(new_orientation)
 
     def get_position_after_move_given_new_orientation(self, new_orientation):
-        """ The canonical x and y position of a piece are defined by the top-left corner of the "default_configuration"
+        """ The canonical x and y position of a piece are defined by the top-left corner of the "default_appearance"
         in the namedtuple for each piece type.
 
         Also, y increases as you go further down the board. So the top of the board is y=0, the bottom is y=19.
+
+        This code is not beautiful, but it works.
 
         :param new_orientation:
         :return:
