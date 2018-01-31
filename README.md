@@ -1,3 +1,5 @@
+# Notes for others
+
 ## Disclaimer
 
 - I am using a `main` branch but not a `master` branch. According to [this Stack Overflow answer](https://stackoverflow.com/a/15987482/4115031)
@@ -6,6 +8,7 @@ don't have a `master` branch,  Google will not index your GitHub repo, and so th
 searching for the answer to a particular company's test question would be able to find my solution by searching
 on Google.
 
+# Notes for myself
 
 ## Steps to take when adding a new interview
 
