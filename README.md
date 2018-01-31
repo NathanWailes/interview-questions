@@ -1,4 +1,4 @@
-## Misc
+## Disclaimer
 
 - I am using a `main` branch but not a `master` branch. According to [this Stack Overflow answer](https://stackoverflow.com/a/15987482/4115031)
 (and as you can verify  yourself by visiting [GitHub's robot.txt page](https://github.com/robots.txt)), if you
