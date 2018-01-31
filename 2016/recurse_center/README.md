@@ -1,21 +1,21 @@
-We review applications on a rolling basis. You should receive a confirmation
+**We review applications on a rolling basis. You should receive a confirmation
 email immediately after you apply, and we will review your application within
-three weeks.
+three weeks.**
 
-In general, clear and concise answers are better than long ones. Most answers
-have a 1500 character max length, but you don't need to write that much.
+**In general, clear and concise answers are better than long ones. Most answers
+have a 1500 character max length, but you don't need to write that much.**
 
-We strongly encourage you to read our about page, FAQ, and User's Manual before
-applying.
+**We strongly encourage you to read our about page, FAQ, and User's Manual before
+applying.**
 
 ## Choose your batch
-If you're admitted but your preferred batch is full, you'll have the option to
+**If you're admitted but your preferred batch is full, you'll have the option to
 attend a different batch. Please do not submit multiple applications to different
-batches.
+batches.**
 
-Duration:
-- Full batch (usually 12 weeks)
-- Half batch (six weeks)
+**Duration:**
+- **Full batch (usually 12 weeks)**
+- **Half batch (six weeks)**
 #### Batch
 
 Full batch
@@ -61,10 +61,10 @@ crackle_pop()
 ```
 
 #### Please link to a program you've written from scratch.
-_You can use something like GitHub's gist to host your code. It doesn't need to
+**You can use something like GitHub's gist to host your code. It doesn't need to
 be long, but it should be something you've written yourself, and not using a
 framework (e.g., Rails). If you don't have anything to submit, code something
-small, like a game of tic-tac-toe._
+small, like a game of tic-tac-toe.**
 
 https://gist.github.com/NathanWailes/a25194630f2d6967597819904d4eabef
 
