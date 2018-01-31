@@ -1,5 +1,3 @@
-*(Converted to Markdown from PDF by Nathan Wailes)*
-
 A Blob is a shape in two-dimensional integer coordinate space where all cells have at least one
 adjoining cell to the right, left, top, or bottom that is also occupied. Given a 10x10 array of
 boolean values that represents a Blob uniformly selected at random from the set of all

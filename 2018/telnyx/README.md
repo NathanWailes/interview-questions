@@ -1,7 +1,5 @@
 #### Problem statement
 
-*(Converted to Markdown from PDF by Nathan Wailes.)*
-
 The Telnyx Chicago Point of Presence has five network devices. Each device has a primary
 port. Some devices also have a secondary port. Each port has a range of VLAN IDs that are
 available for use.

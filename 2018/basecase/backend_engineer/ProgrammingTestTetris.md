@@ -1,5 +1,4 @@
 # BaseCase Programming Test
-*(Converted to Markdown from PDF by Nathan Wailes.)*
 
 You have 9hrs to implement the following game. In order of importance, we are interested in:
 
