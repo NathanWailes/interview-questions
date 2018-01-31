@@ -1,3 +1,10 @@
+## Misc
+
+- According to [this link](https://stackoverflow.com/a/15987482/4115031), if you don't have a `master` branch, Google will
+not index your GitHub repo, and so there's no way that someone searching for the answer to a particular company's test
+question would be able to find my solution by searching on Google.
+
+
 ## Steps to take when adding a new interview
 
 - When naming the company folder, use only lowercase.
