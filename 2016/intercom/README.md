@@ -1,8 +1,7 @@
 ##### Why do you want to join Intercom?  Why is this role the best next step for you right now?
 
 I'm trying to find a Software Engineer or Project/Product Manager position, although I'm open to other
-opportunities. I'm looking for a remote job because I'd like to live with someone who lives abroad and
-my current company does not allow full-time remote work.
+opportunities.
 
 ##### What would your last boss say are your greatest strength and greatest weakness?
 
@@ -43,14 +42,6 @@ story behind the name “Nike”. I’m not telling…:P
 It would really depend on a gut feeling that I would develop through experience, but at the moment I’m
 thinking I would do #2, then #1, then #5. Personally, I think all-hands meetings should be recorded and
 shared on YouTube so that people can watch them later.
-
-##### What’s the most memorable service interaction you’ve ever had with a company (local shop, restaurant, app, global mega-corporation, etc.)
-
-This is a tough one. I was pretty impressed with Visa on a recent trip I took: I had gone abroad and didn’t
-realize I needed to let my bank know, and so my bank card got seized at an ATM. I spent lots of time on the
-phone with my bank, and they eventually referred me to Visa’s “Emergency Cash” division, which took all of
-a few minutes to set me up with enough money to last me the rest of my trip. The speed with which they were
-able to solve my problem impressed me.
 
 ##### Would you rather be achieving your own goals but your team is struggling to achieve its group goals OR struggling to achieve your own goals but your team is achieving its group goals?
 
