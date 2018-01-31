@@ -2,11 +2,11 @@
 
 # Answers to the Crazy Factory Developer Test
 
-During the test though we value honesty and would be happy if you let us know when
+_During the test though we value honesty and would be happy if you let us know when
 and why you had to look up certain points. If you can’t answer a question you may
 skip it entirely. Create a new file for answering the test’s questions. You may
 use any tools to aid you, just make sure you’re sending in a single PDF file for
-us to read in the end!
+us to read in the end!_
 
 # 1. The Web
 
