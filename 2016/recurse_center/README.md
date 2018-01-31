@@ -32,7 +32,7 @@ nathan.wailes
 ## Questions
 
 #### Links
-Please include any that you have: GitHub, LinkedIn, personal web site, etc.
+**Please include any that you have: GitHub, LinkedIn, personal web site, etc.**
 
 - www.nathanwailes.com
 - https://www.facebook.com/nathan.wailes
