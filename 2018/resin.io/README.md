@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The first step of our interview process includes an automated programming test - https://www.qualified.io/assess/(NW: link removed) .
+The first step of our interview process includes an automated programming test - (NW: link removed; it's a https://www.qualified.io/ test) .
 
 Note that the test _will not_ start automatically once you visit it, so no need to worry about that.
 
