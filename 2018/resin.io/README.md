@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The first step of our interview process includes an automated programming test - https://www.qualified.io/assess/5a7c5354133e9e000e...​ .
+The first step of our interview process includes an automated programming test - https://www.qualified.io/assess/(NW: link removed) .
 
 Note that the test _will not_ start automatically once you visit it, so no need to worry about that.
 
@@ -45,7 +45,7 @@ Once all of the characters in one of the strings have been merged, append the re
 #### Constraints
 - `0 ≤ |a length|, |b length| ≤ 25000`
 
-#### Examples
+### Examples
 
 |            | a     | b     | returns  |
 |------------|-------|-------|----------|
