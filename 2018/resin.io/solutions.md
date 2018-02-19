@@ -7,17 +7,15 @@ Finished in 58:28.
 ```javascript
 function mergeStrings (firstString,secondString) {
   var mergedString = "";
-  var lengthToAlternateTo, longerString;
   
   // Construct the alternating part of the merged string.
+  var lengthToAlternateTo;
   if (firstString.length === secondString.length) {
      lengthToAlternateTo = firstString.length;
   } else {
     if (firstString.length > secondString.length) {
-      longerString = 1;
       lengthToAlternateTo = secondString.length;
     } else {
-      longerString = 2;
       lengthToAlternateTo = firstString.length;
     }
   }
@@ -33,6 +31,7 @@ function mergeStrings (firstString,secondString) {
       mergedString += secondString.substr(firstString.length)
     }
   }
+  
   return mergedString;
 }
 ```
