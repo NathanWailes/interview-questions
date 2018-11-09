@@ -17,6 +17,7 @@ The code that I was provided with as an example was this:
 1. I switched `k` to the smallest possible value and made the example list smaller: `k=1, n=2` (`[1, 2]` and `[2, 1]`)
 1. After writing out a plain-English algorithm for handling that case, I expanded to `k=2, n=3` (`[1, 2, 3]`, `[1, 3, 2]`, `[2, 3, 1]`, `[2, 1, 3]`, `[3, 1, 2]`, `[3, 2, 1]`).
 1. After expanding my plain-English algorithm for `k=2`, it seemed to me that the algorithm would generalize to any `k` and any `n`, so I switched to implementing the plain-English algorithm in code.
+1. After creating a first draft of the implementation, I tested it against various edge-cases to make sure it was totally correct.  I had two off-by-one errors that I had suspected might happen and needed fixing.
 
 # Additional notes
 
