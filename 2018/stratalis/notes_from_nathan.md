@@ -60,7 +60,11 @@ but wasn't returning the Eve result, and I ran out of time before I could figure
 
 ## Result
 
-I took 2 hours 21 minutes.
+I took 2 hours 21 minutes.  I bombed it, but I'm not too concerned because I have other clients who are willing to hire
+me without asking these sorts of questions, and they seem to be happy with the work I do for them.  The one time I've
+done very well on a test like this, it was because I had just finished working on a similar problem, and the fact that 
+the interviewer attributed my success to general good programming ability rather than having recently seen the problem
+has made me skeptical about how useful these tests are for judging a programmer's productivity.
 
 From the website:
 
@@ -71,4 +75,3 @@ From the website:
 > Your answers have been sent to the employer for consideration.
 > 
 > The employer will contact you with further information.
-
